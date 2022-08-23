@@ -96,6 +96,8 @@ video::-webkit-media-controls {
     display:none !important;
 }
 
+strong{ color:  #84d904;}
+
 /* home */
 .paragraph{
 	margin: 20px;
@@ -189,6 +191,12 @@ padding:56.25% 0 0 0;position:relative;
 
 #res a{
 	font-size: 12px;
+}
+
+#GamesProd{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
 }
 
 .sect ul{
@@ -295,6 +303,12 @@ header{
 #res{
 	margin-bottom: 10px ;
 	margin-top: 10px;
+}
+
+#GamesProd{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
 }
 
 }
