@@ -1,5 +1,7 @@
 /* font-family: clarendon-urw, serif; font-weight: 400; font-style: normal;*/
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	background-color: #0d0d0d;
 }
@@ -242,6 +244,64 @@ padding:56.25% 0 0 0;position:relative;
 }
 
 
+
+#stages{
+	width: 100%;
+	font-family: clarendon-urw, serif;
+		font-weight: 400;
+	font-style: normal;
+	background-color: black;
+	border: 3px solid #7378d9;
+	border-radius: 10px;
+}
+
+
+#stages ul{
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	padding: 0;
+
+}
+
+#stages li{
+	display: inline;
+
+}
+
+#stages li a{
+	display: block;
+	margin: 0 auto;
+	font-size: 30px;
+	margin: 20px;
+	padding: 0 5px 0 5px;
+	color: #7378d9;
+	text-decoration: none;
+}
+
+#stages li a:hover{
+	color: white;
+	font-size: 30px;
+	background-color: #84d904;
+	border-radius: 10px;
+}
+
+#PTpictures{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.largeT{
+	font-size: 24px;
+}
+
+.noDecoration{
+		text-decoration: none;
+		color: black;
+}
+
 @media screen and (max-width: 650px)
 {
 
@@ -311,6 +371,23 @@ header{
 	flex-direction: column;
 }
 
+/* breakdown*/
+
+#PTpictures{
+	flex-direction: row;
+	margin-bottom: 10px;
+	justify-content: center;
+	align-items: center;
+}
+
+	#stages li a{
+		font-size: 15px;
+	}
+
+	#stages li a:hover{
+	font-size: 25px;
+}
+
 }
 
 
@@ -321,6 +398,11 @@ header{
 	header{
 	width: 66%;
 }
+
+	nav li a{
+		font-size: 30px;
+	}
+
 
 /* portfolio */
 .number{
@@ -384,6 +466,9 @@ header{
 	display: flex;
 	flex-direction: column;
 }
+
+
+
 
 }
 
@@ -469,5 +554,24 @@ header{
 .sect{
 	margin: 15px 10px 20px 10px;
 }
+
+/* breakdowm */
+
+#gdd{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+	.picRow{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 90%;
+			margin: 15px 10px 20px 10px;
+
+		
+	}
 
 }
