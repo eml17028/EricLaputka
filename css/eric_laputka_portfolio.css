@@ -75,7 +75,7 @@ nav li a{
 	display: block;
 	font-size: 20px;
 	margin-left: 20px;
-	padding: 0 5px 0 5px;
+	padding: 0 8px 0 8px;
 	color: #00947c;
 	text-decoration: none;
 }
@@ -116,18 +116,36 @@ strong{ color:  #00947c;}
 
 
 .introPg{
-		margin: 20px;
-	text-align: left;
-		padding: 20px 5%;
-		width: 45%;
+	text-align: center;
+		padding: 15px 4%;
+		width: 25%;
 		background-color: #00947c;
 			box-shadow: 0 2px 4px rgba(0,0,0,0.75);
 }
 
 .introPg p {
 	color: #f5f5f5;
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 500;
+}
+
+#ipg{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+		padding: 20px 5%;
+}
+
+.content {
+	flex: 1;
+	padding: 0 20px;
+	margin-left: 20px;
+}
+
+.content p{
+	font-size: 16;
+	line-height: 1.5;
+	width: 80%;
 }
 
 .show-reel{
@@ -163,11 +181,10 @@ strong{ color:  #00947c;}
 	border-radius: 10px;
 margin-left:  auto;
 margin-right: auto;
-margin-top: 20px;
-margin-bottom: 20px;
-padding:56.25% 0 0 0;position:relative;
-	max-width: 80%;
-
+padding:18% 30%;
+position:relative;
+	max-width: 60%;
+	height: auto;
 }
 
 #gJam a{
@@ -497,6 +514,7 @@ height: auto;
 
 	nav li a{
 		font-size: 15px;
+		padding: 0px;
 	}
 
 	nav li a:hover{
@@ -510,6 +528,25 @@ header{
 
 .paragraph{
 	padding: 10px;
+}
+
+
+.introPg{
+		width: 80%;
+			font-size: 18px;
+}
+
+#ipg{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.showR{
+	border-radius: 10px;
+margin: 20px auto;
+padding:30% 50%;
+position:relative;
 }
 
 /* portfolio */
@@ -727,13 +764,13 @@ justify-content: center;
 	margin: 15px;
 	/*width: 100%;*/
 }
-#ipg{
-	/*display: flex;
-	flex-direction: column;
+/*#ipg{
+	display: flex;
+	flex-direction: row;
 	align-items: center;
 	justify-content: center;
-	margin: 15px;*/
-}
+	margin: 15px;
+}*/
 
 /* portfolio */
 .row
