@@ -226,6 +226,9 @@ position:relative;
 #vgames img{
 				box-shadow: 0 2px 4px rgba(0,0,0,0.75);
 }
+.noshadow {
+	box-shadow: none !important;
+}
 
 #vgames video{
 				box-shadow: 0 2px 4px rgba(0,0,0,0.75);
@@ -336,6 +339,15 @@ height: auto;
 	display: flex;
 	justify-content: flex-start;
 	flex-direction: row;
+}
+
+#Employment a strong{
+	font-size: 20px;
+	color: #004238;
+}
+
+#Employment p{
+	font-size: 12px;
 }
 
 .sect ul{
